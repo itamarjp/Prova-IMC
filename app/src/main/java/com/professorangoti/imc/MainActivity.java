@@ -75,6 +75,7 @@ public class MainActivity extends Activity {
                 Log.i("teste","statuscode: " + statusCode);
                 Log.i("teste", "altura: " + user.getAltura());
                 Log.i("teste", "peso: " + user.getPeso());
+                
                 ((TextView) findViewById(R.id.altura_id)).setText("" + user.getAltura());
                 ((TextView) findViewById(R.id.peso_id)).setText("" + user.getPeso());
                 calcula(null);
