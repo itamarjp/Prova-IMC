@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
         double altura = Double.parseDouble(((EditText)findViewById(R.id.altura_id)).getText().toString());
         double imc = peso/(altura*altura);
         DecimalFormat formato = new DecimalFormat("0.00");
-        ((TextView)findViewById(R.id.imc_id)).setText(formato.format(imc)+"");
+        ((TextView)findViewById(R.id.i  mc_id)).setText(formato.format(imc)+"");
         ImageView img = (ImageView)findViewById(R.id.imagem);
         if(imc<18.5)
             img.setImageResource(R.drawable.images1);
